@@ -5,6 +5,7 @@ body {
   background-color: black;
   color: white;
   font-family: helvetica;
+  opacity: 0.9;
 }
 
 /*Universal Styles Content*/
@@ -12,8 +13,8 @@ body {
 .content{
   display: flex;
   flex-direction: column;
-  border: 3px solid pink;
 }
+
 
 /*Header*/
 
@@ -78,26 +79,39 @@ width: 1200px;
 
 .totm{
   display: flex;
-  flex-direction: column;
-  width: 1000px;
+  justify-content: center;
+  width: 100%;
   border: 2px solid red;
 }
 
-.steeping{
+
+.totm-heading {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 1000px;
   padding-top: 25px;
-  border: 2px solid green;
+  border: 10px solid green;
 }
+
+/*Tea of the Month options*/
 
 .tea-options{
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 1000px;
   border: 1px solid yellow;
 }
+
+.tea-image {
+  display: flex;
+  height: 200px;
+  width:300px;
+  margin-bottom: 10px;
+}
+
+/*First row*/
 
 .first-row{
   display: flex;
@@ -105,8 +119,38 @@ width: 1200px;
   border: 5px dashed blue;
 }
 
+
+
+/*Second row*/
+
 .second-row{
   display: flex;
-  border: 3px dashed white;
   justify-content: center;
+  border: 3px dashed white;
 }
+
+.merytl {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myrtle-ave.jpg");
+}
+
+.bedford-image{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg");
+}
+
+
+/*Locations */
+
+.locations {
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.location-header{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+
+  border: 3px solid orange;
