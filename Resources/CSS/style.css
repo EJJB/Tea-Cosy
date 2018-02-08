@@ -79,46 +79,64 @@ width: 1200px;
 
 .totm{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   border: 2px solid red;
 }
 
+.totmextra-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+  border: 2px dashed grey;
+}
 
 .totm-heading {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 1000px;
   padding-top: 25px;
-  border: 10px solid green;
+  align-items: center;
 }
+
 
 /*Tea of the Month options*/
 
-.tea-options{
+.totm-options{
   display: flex;
-  flex-direction: column;
   width: 1000px;
-  border: 1px solid yellow;
+  justify-content: center;
+  border: 3px solid yellow;
 }
 
-.tea-image {
-  display: flex;
-  height: 200px;
-  width:300px;
-  margin-bottom: 10px;
-}
 
 /*First row*/
 
 .first-row{
   display: flex;
-  justify-content: center;
-  border: 5px dashed blue;
+  border: 5px dashed pink;
 }
 
+.extra-div{
+  display: flex;
+  justify-content: center;
+}
+
+.blitz img{
+  height: 200px;
+  weight: 300px;
+}
+
+.spiced img{
+  height: 200px;
+  weight: 300px;
+}
+
+.donughts img{
+  height: 200px;
+  weight: 300px;
+}
 
 
 /*Second row*/
@@ -126,16 +144,7 @@ width: 1200px;
 .second-row{
   display: flex;
   justify-content: center;
-  border: 3px dashed white;
-}
-
-.merytl {
-  display: flex;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myrtle-ave.jpg");
-}
-
-.bedford-image{
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg");
+  border: 3px dashed brown;
 }
 
 
