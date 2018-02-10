@@ -66,7 +66,7 @@ a {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
 }
 
-.background-image{
+.our-mission .background-image{
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -105,6 +105,7 @@ width: 1200px;
 
 .totm-options{
   display: flex;
+  flex-direction: column;
   width: 1000px;
   justify-content: center;
   border: 3px solid yellow;
@@ -115,6 +116,7 @@ width: 1200px;
 
 .first-row{
   display: flex;
+  justify-content: center;
   border: 5px dashed pink;
 }
 
@@ -147,19 +149,47 @@ width: 1200px;
   border: 3px dashed brown;
 }
 
+.mertyl img{
+  height: 200px;
+  weight: 300px;
+}
+
+.bedford img{
+  height: 200px;
+  weight: 300px;
+}
 
 /*Locations */
 
 .locations {
   display: flex;
-  justify-content: space-around;
-  width: 1200px;
+  margin-top: 70px;
+  width: 100%;
+  justify-content: center;
+}
+
+.locations-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
 }
 
-.location-header{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 15px;
+.locations-div .background-image{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 1200px;
+}
 
-  border: 3px solid orange;
+.specific-locations {
+display: flex;
+flex-direction: column;
+background-color: black;
+font: white;
+width: 300px;
+border: 3px solid green;
+margin: 20px;
+}
